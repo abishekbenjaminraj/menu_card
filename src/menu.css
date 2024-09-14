@@ -1,0 +1,120 @@
+.Main img{
+    height: 200px;
+    width: 300px;
+}
+.Main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin-left: 120px;
+    justify-content: space-between;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.focc{
+    display:flex;
+    margin-top: 20px;
+}
+.focca{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.pizz{
+    display:flex;
+    margin-top: 20px;
+}
+.pizza{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.pro{
+    display:flex;
+    margin-top: 20px;
+}
+.pros{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.spi{
+    display:flex;
+    margin-top: 20px;
+}
+.spin{
+    margin-left: 79px;
+    margin-top: 30px;
+}
+.mar{
+    display:flex;
+    margin-top: 20px;
+    filter: grayscale(100%)
+}
+.marg{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: grey;
+}
+.fun{
+    display:flex;
+    margin-top: 20px;
+}
+.fung{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.grey{
+    filter: grayscale(100%)
+}
+
+
+
+.numbers{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35%;
+    margin-top: 15%;
+  }
+  .message{
+    margin-top: 4%;
+    font-weight: bolder;
+    font-size: x-large;
+  }
+  .buttons{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40%;
+    margin-top: 4%;
+  }
+  .numbers .active{
+    background-color: #7950f2;
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
+    padding-top: 5px;
+    color: white;
+  }
+  .prev{
+    background-color: #7950f2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .nex{
+    background-color: #7950f2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .close{
+    border: none;
+    background-color: transparent;
+    font-size: xx-large;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    cursor: pointer;
+  }
